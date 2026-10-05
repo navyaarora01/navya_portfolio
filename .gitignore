@@ -1,0 +1,27 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local environment values
+.env
+.env.*
+!.env.example
+
+# Local hosting/runtime metadata
+.openai/
+.sites-runtime/
+
+# Logs and operating-system/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local archives
+*.zip
+*.tar.gz
